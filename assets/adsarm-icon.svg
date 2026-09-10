@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">AdSarm</title>
+  <desc id="desc">Letra A blanca sobre un recuadro azul y celeste</desc>
+  <defs>
+    <linearGradient id="background" x1="70" y1="52" x2="442" y2="460" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1557ff"/>
+      <stop offset="0.58" stop-color="#1678f0"/>
+      <stop offset="1" stop-color="#12b9d6"/>
+    </linearGradient>
+    <linearGradient id="highlight" x1="92" y1="70" x2="386" y2="390" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ffffff" stop-opacity="0.2"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="shape">
+      <rect x="24" y="24" width="464" height="464" rx="132"/>
+    </clipPath>
+  </defs>
+  <g clip-path="url(#shape)">
+    <rect x="24" y="24" width="464" height="464" rx="132" fill="url(#background)"/>
+    <path d="M24 170 222 24h266v136L296 292 24 418Z" fill="url(#highlight)"/>
+    <path d="M92 488 310 274l178 88v126Z" fill="#083fbf" opacity="0.13"/>
+  </g>
+  <path fill="#ffffff" fill-rule="evenodd" d="M91 407 216 105h80l125 302h-82l-23-62H196l-23 62H91Zm132-132h66l-33-91-33 91Z"/>
+</svg>
