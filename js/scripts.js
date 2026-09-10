@@ -410,3 +410,70 @@ document.addEventListener('DOMContentLoaded', () => {
         activateWorkflowStep(order[0]);
     });
 });
+document.addEventListener('DOMContentLoaded', () => {
+    const storageKey = 'adsarmScrollTarget';
+
+    function cleanAddress() {
+        let cleanPath = window.location.pathname;
+
+        if (cleanPath.endsWith('/index.html')) {
+            cleanPath = cleanPath.replace(/index\.html$/, '');
+        }
+
+        window.history.replaceState(
+            null,
+            '',
+            cleanPath + window.location.search
+        );
+    }
+
+    function scrollToSection(sectionId) {
+        const section = document.getElementById(sectionId);
+
+        if (!section) return false;
+
+        section.scrollIntoView({
+            behavior: 'smooth',
+            block: 'start'
+        });
+
+        cleanAddress();
+        return true;
+    }
+
+    document.querySelectorAll('a[href*="#"]').forEach((link) => {
+        link.addEventListener('click', (event) => {
+            const href = link.getAttribute('href');
+            const [page, sectionId] = href.split('#');
+
+            if (!sectionId) return;
+
+            event.preventDefault();
+
+            if (scrollToSection(sectionId)) return;
+
+            sessionStorage.setItem(storageKey, sectionId);
+            window.location.href = page || './';
+        });
+    });
+
+    const savedSection = sessionStorage.getItem(storageKey);
+
+    if (savedSection) {
+        sessionStorage.removeItem(storageKey);
+
+        setTimeout(() => {
+            scrollToSection(savedSection);
+        }, 100);
+    }
+
+    if (window.location.hash) {
+        const initialSection = window.location.hash.substring(1);
+
+        setTimeout(() => {
+            scrollToSection(initialSection);
+        }, 100);
+    } else {
+        cleanAddress();
+    }
+});
