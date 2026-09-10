@@ -11936,7 +11936,14 @@ html { scroll-behavior: smooth; scroll-padding-top: 5.5rem; }
 .service-site .btn-primary { background: var(--ad-blue); border-color: var(--ad-blue); box-shadow: 0 12px 30px rgba(21,87,255,.18); }
 .service-site .btn-primary:hover { background: #0e49dc; border-color: #0e49dc; transform: translateY(-1px); }
 .navbar-brand { display: inline-flex; align-items: center; gap: .65rem; }
-.brand-mark { width: 2rem; height: 2rem; border-radius: .65rem; display: grid; place-items: center; color: #fff; font-weight: 800; background: linear-gradient(135deg, var(--ad-blue), var(--ad-cyan)); }
+.brand-mark {
+  width: 2rem;
+  height: 2rem;
+  display: block;
+  flex: 0 0 auto;
+  border-radius: .65rem;
+  box-shadow: 0 5px 14px rgba(21, 87, 255, .2);
+}
 .navbar.sticky-top { box-shadow: 0 8px 25px rgba(16,33,63,.04); }
 .hero-section { background: radial-gradient(circle at 78% 20%, rgba(18,185,214,.13), transparent 25rem), linear-gradient(180deg,#fff 0%,#f6f9ff 100%); overflow: hidden; }
 .eyebrow, .section-kicker { color: var(--ad-blue); text-transform: uppercase; letter-spacing: .11em; font-size: .78rem; font-weight: 800; }
