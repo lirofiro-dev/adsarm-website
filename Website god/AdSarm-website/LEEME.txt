@@ -1,0 +1,81 @@
+ADSARM - SITIO WEB EDITABLE
+----------------------------
+
+COMO VERLO EN GOOGLE CHROME
+
+1. Descomprime el archivo ZIP.
+2. Abre la carpeta "AdSarm-website".
+3. Busca el archivo "index.html".
+4. Haz doble clic sobre "index.html".
+5. La página se abrirá en Google Chrome o en tu navegador predeterminado.
+
+Si se abre en otro navegador:
+
+1. Haz clic derecho sobre "index.html".
+2. Selecciona "Abrir con".
+3. Elige Google Chrome.
+
+COMO MODIFICARLO
+
+Solicita los cambios sobre la carpeta completa o el archivo ZIP para conservar
+la estructura y evitar que se pierdan estilos, imágenes o interacciones.
+
+Los archivos principales son:
+   - index.html: textos, enlaces y estructura.
+   - sobre-mi.html: perfil ampliado, hobbies y enlaces personales.
+   - css/styles.css: colores, tamaños y diseño.
+   - assets/: fotografías, logotipo e imágenes.
+   - assets/evidencia-meta-ads-censurada.mp4: muestra de resultados con datos privados protegidos.
+   - js/scripts.js: interacciones del carrusel de sectores, del panel de entregables y del recorrido "Cómo trabajo".
+
+ORDEN DE LA PAGINA PRINCIPAL
+
+1. Introducción.
+2. Presentación breve de Adolfo.
+3. Sectores, campañas y resultados documentados.
+4. Video de evidencia con información privada censurada.
+5. Reporte consolidado desplegable.
+6. Qué obtiene tu empresa.
+7. Cómo trabajo.
+8. Contacto.
+
+COMO AGREGAR INSTAGRAM
+
+1. Abre sobre-mi.html en Visual Studio Code.
+2. Busca el comentario que dice "Cuando tengas tu usuario".
+3. Debajo de ese comentario agrega un botón con tu dirección completa de Instagram.
+4. Usa siempre el formato: https://www.instagram.com/tu_usuario/
+
+FOTOGRAFIA DE ADOLFO
+
+La fotografía personal utilizada por el sitio está incluida en:
+assets/adolfo-portada.webp
+
+SOBRE MI: CERTIFICACIONES E INTERESES
+
+- La página sobre-mi.html muestra cinco certificados reales.
+- Cada certificado incluye su imagen, nombre, institución, fecha y enlace oficial de verificación en Coursera.
+- Matemática Aplicada presenta una composición de tres fotografías.
+- Debate presenta la fotografía de la participación en el escenario.
+- Atletismo presenta una composición de dos fotografías.
+- La nueva fotografía de portada aparece tanto en la página principal como en la presentación ampliada.
+
+DATOS CONFIGURADOS
+
+Nombre: Adolfo Sarmiento
+Cargo: Paid Media & Analytics Specialist
+Dominio: adsarm.com
+WhatsApp: +502 3397 9742
+Correo de contacto: adolfoexcellence@gmail.com
+
+IMPORTANTE
+
+- El dominio adsarm.com ya fue adquirido; el correo de contacto actual es adolfoexcellence@gmail.com.
+- La gráfica superior es ilustrativa y no afirma resultados específicos.
+- El carrusel muestra siete sectores. Se redistribuyeron 14 campañas con conversaciones y Q5,000.00 desde "Otros" hacia los seis sectores específicos; cada sector reúne al menos dos campañas y supera Q1,000.00 de inversión. "Otros" conserva los 30 registros restantes. El carrusel se controla con las flechas, las tarjetas laterales, los indicadores y el gesto de deslizar en celular.
+- Las imágenes de los sectores son representativas y no muestran clientes, propiedades o instituciones específicas.
+- El CSV analizado reúne 59 registros, Q15,088.75 de inversión, 5,825 conversaciones atribuidas y 1,274,690 impresiones. También contiene 190 visitas atribuidas a objetivos distintos de conversación.
+- El video de evidencia no tiene audio y oculta la cuenta, los nombres de las campañas, enlaces e identificadores. Sus métricas pueden variar ligeramente del CSV porque ambos archivos corresponden a cortes distintos.
+- El botón "Ver reporte consolidado" muestra los 59 registros agrupados por sector sin revelar nombres de clientes o campañas.
+- La sección "Qué obtiene tu empresa" permite alternar entre Visibilidad, Dirección y Comunicación. Sus cifras y ejemplos son demostrativos y no representan resultados de clientes.
+- La plantilla base de Start Bootstrap se mantiene acreditada bajo licencia MIT.
